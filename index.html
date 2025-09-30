@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lá Dừa Eco - Trang Chủ</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">Lá Dừa Eco</div>
+           <div class="search-bar">
+    <input type="text" placeholder="Tìm sản phẩm bạn mong muốn">
+    <button>🔍</button>
+</div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="san-pham.html">Sản phẩm</a></li>
+                <li><a href="tin-tuc.html">Tin tức</a></li>
+                <li><a href="lien-he.html">Liên hệ</a></li>
+                <li><a href="about-us.html">About us</a></li>
+            </ul>
+            <div class="hotline">Hotline: 1900 6750</div>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <img src="image/banner1.jpg" alt="Banner ly lá dừa">
+        <div class="banner-content">
+            <h1>Chào mừng đến với COCOCUP</h1>
+            <p>Khám phá sản phẩm thân thiện môi trường</p>
+        </div>
+    </section>
+
+    <section class="products hot-products">
+        <h2>SẢN PHẨM NỔI BẬT</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="image/sanpham1.jpg" alt="Ly lá dừa size S">
+                <h3>Ly Lá Dừa Size S</h3>
+                <p>Ly nhỏ gọn, lý tưởng cho cà phê take-away. Thủ công tinh xảo, giữ nhiệt tốt.</p>
+                <span class="price">50.000đ</span>
+                <button class="add-to-cart" onclick="window.location.href='#mua-hang'">Thanh toán</button>
+            </div>
+            <div class="product-item">
+                <img src="image/sanpham1.jpg" alt="Ly lá dừa in họa tiết">
+                <h3>Ly Lá Dừa In Họa Tiết</h3>
+                <p>Thiết kế độc đáo với họa tiết thiên nhiên, bền vững và phong cách.</p>
+                <span class="price">70.000đ</span>
+                <button class="add-to-cart" onclick="window.location.href='#mua-hang'">Thanh toán</button>
+            </div>
+            <div class="product-item">
+                <img src="image/sanpham1.jpg" alt="Ly lá dừa in họa tiết">
+                <h3>Ly Lá Dừa In Họa Tiết</h3>
+                <p>Thiết kế độc đáo với họa tiết thiên nhiên, bền vững và phong cách.</p>
+                <span class="price">100.000đ</span>
+                <button class="add-to-cart" onclick="window.location.href='#mua-hang'">Thanh toán</button>
+            </div>
+        </div>
+    </section>
+
+   <section id="mua-hang">
+    <div class="mua-hang-container">
+        <!-- Cột trái: Nội dung giới thiệu -->
+        <div class="mua-hang-info">
+            <h2>Đặt Mua Sản Phẩm Ngay</h2>
+            <p>
+                Ly lá dừa mang đến cho bạn những sản phẩm <strong>thân thiện môi trường</strong>, 
+                an toàn sức khỏe và phong cách hiện đại.  
+            </p>
+            <p>
+                👉 Giao hàng nhanh chóng toàn quốc.  
+                👉 Ưu đãi cho đơn hàng từ 300.000đ.  
+                👉 Cam kết sản phẩm 100% tự nhiên.
+            </p>
+            <img src="image/sanpham1.jpg" alt="Sản phẩm lá dừa" class="mua-hang-img">
+        </div>
+
+        <!-- Cột phải: Form mua hàng -->
+        <div class="mua-hang-form">
+            <h2>Mua Hàng Nhanh</h2>
+            <form id="form-mua-hang">
+                <label for="dia-chi">Địa Chỉ:</label>
+                <input type="text" id="dia-chi" name="dia-chi" required>
+
+                <label for="so-dien-thoai">Số Điện Thoại:</label>
+                <input type="tel" id="so-dien-thoai" name="so-dien-thoai" required pattern="[0-9]{10,11}">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="san-pham">Chọn Sản Phẩm:</label>
+                <select id="san-pham" name="san-pham" required>
+                    <option value="">-- Chọn --</option>
+                    <option value="Ly La Dua Size S">Ly Lá Dừa Size S - 50.000đ</option>
+                    <option value="Ly La Dua Size L">Ly Lá Dừa Size L - 70.000đ</option>
+                    <option value="Ly La Dua Size XL">Ly Lá Dừa Size XL - 100.000đ</option>
+                </select>
+
+                <button type="submit">Mua Ngay</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="contact">
+                <h3>Liên Hệ</h3>
+                <p>Trường Đại học FPT Cần Thơ, 600 Đường Nguyễn Văn Cừ, Cần Thơ</p>
+                <p>Hotline: 1900 6750</p>
+            </div>
+            <div class="social">
+                <a href="#">YouTube</a>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+            </div>
+        </div>
+        <p class="copyright">© 2025 Lá Dừa Eco</p>
+    </footer>
+
+    <div id="modal-thong-bao" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Mua Hàng Thành Công!</h2>
+            <p>Đơn hàng của bạn đã được ghi nhận. Chúng tôi sẽ liên hệ sớm!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</html>
