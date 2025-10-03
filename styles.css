@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    background: #228B22; /* Solid green background */
+    background: #6B9B4B; /* Solid green background */
     color: white;
     padding: 10px 0;
     position: sticky;
@@ -61,17 +61,17 @@ header {
 }
 
 .search-bar input:focus {
-    box-shadow: 0 0 5px rgba(34, 139, 34, 0.5); /* Green glow on focus */
+    box-shadow: 0 0 5px  rgba(34, 139, 34, 0.5); /* Green glow on focus */
 }
 
 .search-bar button {
     padding: 12px 20px;
-    background: #FF7518; /* Orange background */
+    background: #ffffff; /* Orange background */
     color: white;
     border: none;
     border-radius: 0 25px 25px 0; /* Rounded right side */
     cursor: pointer;
-    font-size: 1.2em;
+    font-size: 0.8em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,7 +81,7 @@ header {
 }
 
 .search-bar button:hover {
-    background: #E65C00; /* Darker orange on hover */
+    background: #ffffff; /* Darker orange on hover */
     transform: scale(1.05); /* Slight scale effect */
 }
 
@@ -115,7 +115,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #FF7518;
+    color: #ffffff;
 }
 
 .hotline {
@@ -165,14 +165,14 @@ nav ul li a:hover {
 }
 
 h1 {
-    color: #228B22;
+    color: #6B9B4B;
     text-align: center;
     margin-bottom: 20px;
     font-size: 2em;
 }
 
 h2 {
-    color: #228B22;
+    color: #6B9B4B;
     text-align: center;
     margin-bottom: 20px;
     font-size: 1.5em;
@@ -211,7 +211,7 @@ h2 {
 }
 
 .price {
-    color: #FF7518;
+    color: #6B9B4B;
     font-weight: bold;
     font-size: 1.1em;
     display: block;
@@ -219,7 +219,7 @@ h2 {
 }
 
 .add-to-cart {
-    background: #FF7518;
+    background: #6B9B4B;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -239,7 +239,7 @@ h2 {
 }
 
 .add-to-cart:hover {
-    background: #E65C00;
+    background: #6B9B4B;
 }
 
 .read-more {
@@ -341,7 +341,7 @@ footer {
 }
 
 .social a {
-    color: #FF7518;
+    color: #6B9B4B;
     margin: 0 10px;
     text-decoration: none;
 }
@@ -460,7 +460,7 @@ footer {
 
 .buy-now-btn {
     display: inline-block;
-    background: #228B22;
+    background: #6B9B4B;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -496,7 +496,7 @@ footer {
 }
 
 .mua-hang-info h2 {
-    color: #228B22;
+    color: #6B9B4B;
     margin-bottom: 15px;
     text-align: left;
 }
@@ -524,7 +524,7 @@ footer {
 .mua-hang-form h2 {
     text-align: center;
     margin-bottom: 15px;
-    color: #228B22;
+    color: #6B9B4B;
 }
 
 /* Responsive cho mobile */
